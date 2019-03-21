@@ -1,0 +1,13 @@
+
+body {
+    background-image: url(../img/hip-square.png);
+    font-family: 'Open Sans', Regular;
+}
+
+h1 {
+    text-align: center;
+}
+
+.sub {
+    text-align: center;
+}
