@@ -1,13 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
 
 body {
     background-image: url(../img/hip-square.png);
     font-family: 'Open Sans', Regular;
+    margin: 10%;
 }
 
 h1 {
     text-align: center;
+    text-decoration: underline;
 }
 
-.sub {
+h2 {
+    text-decoration: underline;
+    font-family: 'Lobster', Cursive;
+    color: lightseagreen;
+}
+
+ol, ul {
+    list-style: none;
+    text-align: left;
+}
+
+a:link {
+    color: lightseagreen;
+}
+
+a:hover {
+    color: lightsalmon;
+}
+
+a:visited {
+    color: slategrey;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
     text-align: center;
 }
+
+.column {
+    float: left;
+    padding: 15px;
+    width: 33.33%;
+}
+
+.column.middle {
+    width: 33.33%;
+    align-content: center;
+
+}
+
+.column.side {
+    width: 33.33%;
+}
+
+.vision {
+    text-align: center;
+}
+
+.table {
+    margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .column.side,
+    .column.middle {
+        width: 100%;
+    }
+}
+

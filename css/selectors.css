@@ -1,5 +1,7 @@
+/* Stylesheet for css_selectors.html */
+
 /* selector for id="container" */
-selector-todo {
+#container {
     margin: 50px auto;
     width: 500px;
     padding: 10px;
@@ -8,7 +10,7 @@ selector-todo {
 /*  selector for all "h1" elements
     that are a descendent of id="container"
     and have a class of "fancy-header" */
-#container h1{
+#container h1.fancy-header{
     color: blue;
     text-decoration: underline;
 }
@@ -28,3 +30,4 @@ em {
 .article>a {
     float:right;
 }
+
