@@ -1,0 +1,82 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+    margin: 0;
+    font-family: Arial, Ubuntu, sans-serif;
+    text-align: justify;
+    content-box: default;
+}
+
+:root {
+    --bg-info: rbg(208,222,252);
+    --bg-success: rbg(214,242,220);
+    --bg-warning: rbg(252,250,206);
+    --bg-error: rbg(146,71,85);
+}
+
+.message message-info {
+    padding: 1%;
+    margin: 1%;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+.message message-success {
+    padding: 1%;
+    margin: 1%;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+.message message-warning {
+    padding: 1%;
+    margin: 1%;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+.message message-error {
+    padding: 1%;
+    margin: 1%;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+#bg-info {
+    padding: 1%;
+    margin: 1%;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+
+#bg-success {
+    text-decoration-color: #cbffcd;
+    border-style-type: solid #cbffcd;
+    border-width: 1px;
+    border-radius: 10px;
+    height: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+#bg-warning {
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 150px;
+}
+
+
+#bg-error {
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 150px;
+
+}

@@ -14,8 +14,8 @@ form {
     margin: 1em;
     padding: 1em;
 
-    /* This form should be separated from other elements by 1em */
-    /* There must be 1em between the content and the border of this element */
+    /* This form should be separated from other elements by 1em = this means margin */
+    /* There must be 1em between the content and the border of this element = PADDING */
 }
 
 fieldset {
@@ -23,9 +23,9 @@ fieldset {
     -moz-box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
     background-color: white;
-    border: none;
+    border: 0px;
     padding: 1em;
-    /* There must be 1em between the content and the border of this element */
+    /* There must be 1em between the content and the border of this element*/
     /* It should have no border */
     /* Its background should be white */
 }
@@ -40,8 +40,10 @@ fieldset {
 
 .form-group {
     width: 100%;
-    padding-top: .5em;
-    padding-bottom: .5em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+
+    /* also can be margin: .5em 0em
     /* This element must use 100% of the width */
     /* It should have a separation of .5em from elements on top of it and below it*/
 }
@@ -52,8 +54,8 @@ fieldset {
 }
 
 .form-control {
-    padding: 4px 0 4px 0;
-    margin: .5em 0 .5em 0;
+    height: 2em;
+    width: calc(100% - 4px);
 
     /* There must be 4px on top of the text and below the text of an input with this class */
     /* It should have a separation of .5em from elements on top of it and below it */
