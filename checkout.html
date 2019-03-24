@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+    </style>
+    <meta charset="UTF-8">
+    <title>Checkout form</title>
+</head>
+<body>
+<form method="POST" action="https://request-inspector.glitch.me/">
+    <div class="credit_card">
+        <label for="credit_card_num">Credit Card Number</label>
+        <input id="credit_card_num" name="credit card" placeholder="XXXX XXXX XXXX" required>
+    </div>
+    <div class="CVV">
+        CVV
+        <label for="security_code">
+            <input id="security_code" name="security_code" placeholder="XXX" required>
+        </label>
+    </div>
+    <br>
+    <div class="date">
+        Expiration date (MM/YYYY)
+        <select name="expiration_month" required>
+            <option selected="selected">Month</option>
+            <option value="1">01</option>
+            <option value="2">02</option>
+            <option value="3">03</option>
+            <option value="4">04</option>
+            <option value="5">05</option>
+            <option value="6">06</option>
+            <option value="7">07</option>
+            <option value="8">08</option>
+            <option value="9">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+        </select>
+        <select name="expiration_year" required>
+            <option selected="selected">Year</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            <option value="2027">2027</option>
+            <option value="2028">2028</option>
+            <option value="2029">2029</option>
+        </select>
+    </div>
+    <br>
+    <div class="address">
+        Billing address
+        <label for="street">
+            <input id="street" name="street" placeholder="ex. 123 Apple Way" required>
+        </label>
+        <br>
+        <label for="apt">
+            <input id="apt" name="apt" placeholder="Apartment or Suite number">
+        </label>
+        <br>
+        <label for="city">
+            <input id="city" name="city" placeholder="ex. San Francisco" required>
+        </label>
+        <select name="state" required>
+            <option selected="selected">State</option>
+            <option value="AL">AL</option>
+            <option value="AK">AK</option>
+            <option value="AR">AR</option>
+            <option value="AZ">AZ</option>
+            <option value="CA">CA</option>
+            <option value="CO">CO</option>
+            <option value="CT">CT</option>
+            <option value="DE">DE</option>
+            <option value="FL">FL</option>
+            <option value="GA">GA</option>
+            <option value="HI">HI</option>
+            <option value="ID">ID</option>
+            <option value="IL">IL</option>
+            <option value="IN">IN</option>
+            <option value="IA">IA</option>
+            <option value="KS">KS</option>
+            <option value="KY">KY</option>
+            <option value="LA">LA</option>
+            <option value="ME">ME</option>
+            <option value="MD">MD</option>
+            <option value="MA">MA</option>
+            <option value="MI">MI</option>
+            <option value="MN">MN</option>
+            <option value="MS">MS</option>
+            <option value="MO">MO</option>
+            <option value="MT">MT</option>
+            <option value="NE">NE</option>
+            <option value="NV">NV</option>
+            <option value="NH">NH</option>
+            <option value="NJ">NJ</option>
+            <option value="NM">NM</option>
+            <option value="NY">NY</option>
+            <option value="NC">NC</option>
+            <option value="ND">ND</option>
+            <option value="OH">OH</option>
+            <option value="OK">OK</option>
+            <option value="OR">OR</option>
+            <option value="PA">PA</option>
+            <option value="RI">RI</option>
+            <option value="SC">SC</option>
+            <option value="SD">SD</option>
+            <option value="TN">TN</option>
+            <option value="TX">TX</option>
+            <option value="UT">UT</option>
+            <option value="VT">VT</option>
+            <option value="VA">VA</option>
+            <option value="WA">WA</option>
+            <option value="WV">WV</option>
+            <option value="WI">WI</option>
+            <option value="WY">WY</option>
+        </select>
+        <label for="zip">
+            <input id="zip" name="zip" placeholder="Your zipcode" required>
+        </label>
+    </div>
+    <br>
+    <label for="save_info">
+        <input type="checkbox" id="save_info" name="save_info" checked> Keep this credit card on file for future transactions
+    </label>
+    <br>
+    <button type="submit">Buy now!</button>
+</form>
+</body>
+</html>
+
