@@ -1,3 +1,68 @@
+
 * {
-    background-image: url("../img/seigaiha.png");
+
 }
+
+
+header {
+    background-color: #FFC038;
+    font-family: 'Faster One', Cursive;
+    text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+    font-size: 48px;
+    color: #ffffff;
+    text-align: center;
+    font-kerning: normal;
+    padding: 10px;
+
+}
+
+nav {
+    grid-area: sidebar;
+
+}
+
+body {
+    background-image: url("../img/dark_embroidery.png");
+    font-family: 'Open Sans',Sans-Serif;
+    margin: auto;
+    padding: 20px;
+
+}
+
+footer {
+    text-align: center;
+}
+
+.property {
+
+}
+
+.size {
+
+}
+
+.mini_price {
+
+}
+
+.maxi_price {
+
+}
+
+.zip {
+
+}
+
+.bed {
+
+}
+
+.bath {
+
+}
+
+
