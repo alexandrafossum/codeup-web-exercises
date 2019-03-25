@@ -1,0 +1,40 @@
+body {
+    background-image: url("../img/forest.jpg");
+    background-attchment: fixed;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    height: 800px;
+}
+
+form {
+    position: relative;
+    top: 300px;
+    text-align: center;
+}
+
+button {
+    width: 65px;
+    height: 30px;
+    font-family: "Raleway", sans-serif;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+    top: 650px;
+}
+
+.logo {
+    position: fixed;
+}
+
+.email {
+    width: 300px;
+}
+
+#logo {
+    position: relative;
+    left: 20px;
+}
