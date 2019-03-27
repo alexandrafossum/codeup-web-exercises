@@ -1,0 +1,42 @@
+
+h1 {
+    background: rgba(193, 193, 193, .51);
+    width: 100%;
+}
+
+.navbar {
+    justify-content: left;
+    background-color: #DDDDDD;
+}
+
+.navbar-home {
+    color: slategrey;
+}
+
+.btn btn-outline-success my-2 my-sm-0 {
+
+}
+
+.btn btn-outline-success my-2 my-sm-0:hover {
+
+}
+
+.jumbotron {
+    background-image: url("../img/pizza.png");
+    text-align: center;
+    width: 100%;
+}
+
+.card-body {
+    border: 1px solid grey;
+    border-radius: 5px;
+
+}
+.crust-head {
+    background: #DDDDDD;
+    border-radius: 5px;
+    padding: 1px;
+}
+
+
+
