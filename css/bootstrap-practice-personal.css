@@ -1,0 +1,29 @@
+body {
+    background-image: url("../img/asanoha-400px.png");
+}
+
+.nav bg-light {
+    color: black;
+}
+
+.container {
+    margin-top: 10px;
+}
+
+.sidebar {
+    background-color: rgba(234, 93, 72, .65);
+    border-radius: 8px;
+    color: white;
+    align-content: center;
+}
+
+#about me {
+    color: white;
+    text-align: center;
+    font-family: 'Montserray', regular;
+}
+
+#bio {
+
+}
+

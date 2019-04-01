@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33177d1b-1910-40b8-96c3-980647cffb7a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bootstrap-practice-personal.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/blog-desktop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-practice-personal.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/coming-soon.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/grid-layout.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/intro_css.css" afterDir="false" />
@@ -15,7 +17,6 @@
       <change afterPath="$PROJECT_DIR$/css/twitter.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/webpage-generic.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-pizza.html" beforeDir="false" afterPath="$PROJECT_DIR$/order-pizza.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,19 +42,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/order-pizza.html">
+        <entry file="file://$PROJECT_DIR$/bootstrap-practice-personal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="66" column="11" lean-forward="true" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="11" />
+            <state relative-caret-position="298">
+              <caret line="43" column="61" lean-forward="true" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/order-pizza.css">
+        <entry file="file://$PROJECT_DIR$/css/bootstrap-practice-personal.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
-              <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+            <state relative-caret-position="210">
+              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -113,7 +114,6 @@
         <option value="$PROJECT_DIR$/twitter.html" />
         <option value="$PROJECT_DIR$/css/twitter.css" />
         <option value="$PROJECT_DIR$/css/webpage-generic.css" />
-        <option value="$PROJECT_DIR$/webpage-generic.html" />
         <option value="$PROJECT_DIR$/css/coming-soon.css" />
         <option value="$PROJECT_DIR$/coming-soon.html" />
         <option value="$PROJECT_DIR$/media-queries.html" />
@@ -124,34 +124,54 @@
         <option value="$PROJECT_DIR$/css/blog-desktop.css" />
         <option value="$PROJECT_DIR$/css/order-pizza.css" />
         <option value="$PROJECT_DIR$/order-pizza.html" />
+        <option value="$PROJECT_DIR$/webpage-generic.html" />
+        <option value="$PROJECT_DIR$/css/bootstrap-practice-personal.css" />
+        <option value="$PROJECT_DIR$/bootstrap-practice-personal.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="1018" />
-    <option name="width" value="262" />
-    <option name="height" value="800" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="650" />
+    <option name="y" value="23" />
+    <option name="width" value="630" />
+    <option name="height" value="724" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="codeup-web-exercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeup-web-exercises" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codeup-web-exercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeup-web-exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553737696623" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553893376543" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Custom" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -181,18 +201,20 @@
       <workItem from="1553443376812" duration="30869000" />
       <workItem from="1553629131656" duration="9345000" />
       <workItem from="1553694917837" duration="19203000" />
-      <workItem from="1553731460012" duration="5167000" />
+      <workItem from="1553731460012" duration="5704000" />
+      <workItem from="1553784923184" duration="83000" />
+      <workItem from="1553887420658" duration="4565000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140072000" />
+    <option name="totallyTimeSpent" value="145257000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="650" y="0" width="630" height="800" extended-state="0" />
+    <frame x="650" y="23" width="630" height="724" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.36564627" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.36503497" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -404,13 +426,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage-generic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="47" column="10" lean-forward="true" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/webpage-generic.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -474,6 +489,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/order-pizza.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1303">
+          <caret line="116" column="8" selection-start-line="116" selection-start-column="8" selection-end-line="116" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/order-pizza.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="593">
@@ -481,10 +503,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order-pizza.html">
+    <entry file="file://$PROJECT_DIR$/webpage-generic.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="66" column="11" lean-forward="true" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="11" />
+        <state relative-caret-position="135">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap-practice-personal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap-practice-personal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="43" column="61" lean-forward="true" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -551,6 +587,17 @@
         </settings>
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">
