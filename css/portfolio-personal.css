@@ -1,0 +1,144 @@
+
+/*STYLESHEET FOR PORTFOLIO PROJECT*/
+
+/*NAVBAR STYLING*/
+
+h1 {
+    padding-top: 50px;
+}
+
+ol {
+    border: none;
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+
+li {
+    list-style-type: none;
+    line-height: 20px;
+    padding: 20px 30px 20px 0px;
+}
+
+li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #808080;
+    text-decoration: none;
+}
+
+.navigation {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/*ABOUT ME*/
+
+h3 {
+    text-align: center;
+    padding: 50px 0px 20px 0px;
+}
+
+.about {
+    background-color:#495961;
+    color: #FFFFFF;
+}
+
+.about p {
+   padding: 30px 30px 90px 30px;
+}
+
+.about img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+}
+
+/*MY WORK*/
+
+table {
+    padding: 10px 10px 40px 10px;
+}
+
+th, td {
+    padding: 15px;
+}
+
+.mywork {
+    background-color: #E6E6E6;
+    padding: 30px 30px 90px 30px;
+}
+
+.mywork div {
+    text-align: center;
+}
+
+/*RESUME*/
+
+.resume {
+    background-color: #4155A5;
+    color: white;
+}
+
+.tagline {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.white {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+/*SWING BY*/
+
+.swingby {
+    background-color: #565656;
+    color: white;
+    text-align: center;
+}
+
+
+/*CONTACT*/
+
+.contact {
+    background-color: #428D83;
+    color: #FFFFFF;
+    padding-left: 15px;
+}
+
+.contact h3 {
+    text-align: left;
+}
+
+.contact-form {
+    background-color: #FFFFFF;
+    color: black;
+    padding-right: -160px;
+}
+
+
+
+/*MOBILE SCREEN*/
+
+@media screen and (max-width: 575.98px) {
+
+}
+
+/*TABLET SCREEN*/
+
+@media screen and (min-width: 575.98px) and (max-width: 992px) {
+    .about {
+    }
+
+}
+
+/*DESKTOP SCREEN*/
+
+@media screen and (min-width: 991.98px) and (max-width: 1600px) {
+
+}

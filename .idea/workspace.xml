@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33177d1b-1910-40b8-96c3-980647cffb7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bootstrap-practice-personal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS Practice.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/blog-desktop.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/bootstrap-practice-personal.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/coming-soon.css" afterDir="false" />
@@ -11,11 +11,13 @@
       <change afterPath="$PROJECT_DIR$/css/media-queries.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/messages.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/order-pizza.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/portfolio-personal.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/property-search.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/selectors.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/twitter.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/webpage-generic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio-personal.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -42,19 +44,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bootstrap-practice-personal.html">
+        <entry file="file://$PROJECT_DIR$/portfolio-personal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="43" column="61" lean-forward="true" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
+            <state relative-caret-position="236">
+              <caret line="127" column="19" lean-forward="true" selection-start-line="127" selection-start-column="19" selection-end-line="127" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/bootstrap-practice-personal.css">
+        <entry file="file://$PROJECT_DIR$/css/portfolio-personal.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            <state relative-caret-position="-190">
+              <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
             </state>
           </provider>
         </entry>
@@ -77,6 +79,7 @@
       <find>.profile-form</find>
       <find>class=&quot;profile-form</find>
       <find>media</find>
+      <find>&gt;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -127,14 +130,18 @@
         <option value="$PROJECT_DIR$/webpage-generic.html" />
         <option value="$PROJECT_DIR$/css/bootstrap-practice-personal.css" />
         <option value="$PROJECT_DIR$/bootstrap-practice-personal.html" />
+        <option value="$PROJECT_DIR$/willdeletelater.html" />
+        <option value="$PROJECT_DIR$/JS Practice.html" />
+        <option value="$PROJECT_DIR$/css/portfolio-personal.css" />
+        <option value="$PROJECT_DIR$/portfolio-personal.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="650" />
+    <option name="x" value="620" />
     <option name="y" value="23" />
-    <option name="width" value="630" />
-    <option name="height" value="724" />
+    <option name="width" value="660" />
+    <option name="height" value="699" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -166,12 +173,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553893376543" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554258605309" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Custom" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.VCS" />
+    <property name="settings.editor.splitter.proportion" value="0.27650273" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -203,18 +211,24 @@
       <workItem from="1553694917837" duration="19203000" />
       <workItem from="1553731460012" duration="5704000" />
       <workItem from="1553784923184" duration="83000" />
-      <workItem from="1553887420658" duration="4565000" />
+      <workItem from="1553887420658" duration="4827000" />
+      <workItem from="1554128991207" duration="84000" />
+      <workItem from="1554146754503" duration="377000" />
+      <workItem from="1554150804583" duration="410000" />
+      <workItem from="1554159786237" duration="31000" />
+      <workItem from="1554217874597" duration="9173000" />
+      <workItem from="1554249364064" duration="8756000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145257000" />
+    <option name="totallyTimeSpent" value="164350000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="650" y="23" width="630" height="724" extended-state="0" />
+    <frame x="620" y="23" width="660" height="699" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.36503497" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.50647247" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -231,7 +245,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4995587" weight="0.5739726" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4995587" weight="0.5712025" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5004413" side_tool="true" weight="0.32713178" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -248,13 +262,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/first-day.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/github-html-styles.css" />
     <entry file="file://$PROJECT_DIR$/github.html" />
     <entry file="file://$PROJECT_DIR$/css/github-html-styles.css" />
@@ -482,13 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-desktop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/order-pizza.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1303">
@@ -510,6 +510,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap-practice-personal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="43" column="61" lean-forward="true" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap-practice-personal.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -517,10 +524,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap-practice-personal.html">
+    <entry file="file://$PROJECT_DIR$/blog-desktop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="43" column="61" lean-forward="true" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
+        <state relative-caret-position="375">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/willdeletelater.html" />
+    <entry file="file://$PROJECT_DIR$/JS Practice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/portfolio-personal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio-personal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="127" column="19" lean-forward="true" selection-start-line="127" selection-start-column="19" selection-end-line="127" selection-end-column="19" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS PRACCY</title>
+</head>
+<body>
+
+    <script class="movies">
+
+        var ppd = 3.00;
+
+        var mermaidDays = 3;
+        var brotherDays = 5;
+        var herculesDays = 1;
+
+        var littleMermaid = mermaidDays * ppd;
+        var brotherBear = brotherDays * ppd;
+        var hercules = herculesDays * ppd;
+
+        var totalCost = littleMermaid + brotherBear + hercules;
+
+        console.log(totalCost);
+
+    </script>
+
+    <script class="pay">
+
+        var Google = 400.00;
+        var Amazon = 380.00;
+        var Facebook = 350.00;
+
+        var hoursGoogle = 6;
+        var hoursAmazon = 4;
+        var hoursFacebook = 10;
+
+        var totalWeek = (Google * hoursGoogle) + (Amazon * hoursAmazon) + (Facebook * hoursFacebook);
+
+        console.log(totalWeek);
+
+    </script>
+
+    <script class="schedule">
+
+        var noConflict = true;
+        var classConflict = false;
+
+    </script>
+
+    <script class="offer">
+
+        var offerStatus = true;
+        var memberStatus = true;
+        var numOfItems = 3; //prompt("How many items in cart?"); console.log(numOfItems);
+
+        if ((memberStatus && offerStatus) || (numOfItems > 2 && offerStatus)) {
+            console.log("Success!");
+        } else {
+            console.log("Sorry, you are not eligible.");
+        }
+
+    </script>
+
+    <script class="password">
+
+        var username = "codeup";
+        var password = "notastrongpassword";
+
+        var passWithUsername = false;
+        var smallPassword = false;
+        var passMoreTwenty = false;
+        var passUserWhitespace = false;
+
+        // smallPassword = password < password.length(5);
+        // passWithUsername = password === username;
+        // passMoreTwenty = password.length(>=21);
+        // passUserWhitepace != password.trim();
+
+    </script>
+
+</body>
+</html>
