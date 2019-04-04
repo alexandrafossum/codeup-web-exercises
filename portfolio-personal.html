@@ -10,9 +10,10 @@
 </head>
 <body>
 
-<section class="navigation">
+<section class="container">
     <div class="row">
-        <div class="container col-sm-12 col-md-6">
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <div class="navigation">
             <h1>My Logo</h1>
             <ol>
                 <li><a href="#">Home</a></li>
@@ -21,14 +22,11 @@
                 <li><a href="#">Contact</a></li>
             </ol>
         </div>
-    </div>
-</section>
-
-<section class="about">
-    <div class="row">
-        <div class="container col-sm-12 col-md-6">
-            <h3>About Me</h3>
-            <img id="profile-picture" src="img/profile_random.png" alt="Picture of the author">
+        </div>
+        <div class="container col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <div class="aboutme">
+            <h1>About Me</h1>
+            <img id="profile-picture" src="img/kitchen_woman.png" alt="Picture of the author">
             <p class="about-para">Supreme executive power derives from a mandate from the masses, not from some farcical
                 aquatic
                 ceremony. <br><br> At this time, a friend shall lose his friend's hammer and the young shall not know
@@ -37,25 +35,26 @@
                 about eight
                 o'clock. </p>
         </div>
-    </div>
-</section>
-
-<section class="mywork">
-    <div class="row">
-        <div class="container col-sm-12 col-md-6">
-            <h3>My Work</h3>
-            <div>Some of my latest projects.</div>
-            <img src="" alt="">
-            <img src="" alt="">
-            <div>Just call me awesome.</div>
         </div>
     </div>
 </section>
 
-<section class="resume">
+
+<section class="container">
     <div class="row">
-        <div class="container col-sm-12 col-md-6">
-            <h3>Resume</h3>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <div class="mywork">
+            <h1>My Work</h1>
+            <div>Some of my latest projects.</div>
+            <img src="img/chair.png" alt="minimal chair" id="chair">
+                <br>
+            <img src="img/plant.png" alt="centred plant" id="plant">
+            <div>Just call me awesome.</div>
+        </div>
+        </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <div class="resume">
+            <h1>Resume</h1>
             <div class="tagline">A draft from my CV</div>
             <table>
                 <tr>
@@ -95,25 +94,25 @@
                 </tr>
             </table>
         </div>
+            </div>
     </div>
 </section>
 
-<section class="swingby">
+
+<section class=" container">
     <div class="row">
-        <div class="container col-sm-12 col-md-6">
-            <h3>Swing By</h3>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <div class="swingby">
+            <h1>Swing By</h1>
             <p>...for a cup of coffee, or whatever, whenever...</p>
             <p>Chicago, US</p>
             <p>+00 151515151515</p>
             <p>test@test.com</p>
         </div>
-    </div>
-</section>
-
-<section class="contact">
-    <div class="row">
-        <div class="container col-sm-12 col-md-6">
-            <h3>Contact</h3>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <div class="contact">
+            <h1>Contact</h1>
             <p>GET IN TOUCH</p>
             <form action="glitch.me">
                 <fieldset class="contact-form">
@@ -122,11 +121,13 @@
                     <label>Email</label>
                     <input type="email" name="email" width="50px"><br>
                     <label>Message</label>
-                    <input type="text" name="message" width="50px" max-length="200"><br>
-                    <button>Send</button>
+                    <input type="text" name="message" width="50px"><br>
+                    <button id="button">Send</button>
                 </fieldset>
             </form>
         </div>
+        </div>
+    </div>
     </div>
 </section>
 
