@@ -44,8 +44,8 @@ function positiveNegative(number) {
 }
 
 
-alert(number + " is: " + evenOddNumber(number));
-alert(number + " is: " + positiveNegative(number));
+alert(number + " is " + evenOddNumber(number));
+alert(number + " is " + positiveNegative(number));
 alert(number + " + 100 is " + add100(number));
 
 
@@ -91,11 +91,13 @@ function analyzeColor(color) {
     }
 }
 
+console.log(analyzeColor(randomColor));
+
 // Don't change the next two lines!
 // These lines create two variables for you:
 // - `colors`: a list of the colors of the rainbow
 // - `randomColor`: contains a single random color value from the list (this
-//                  will contain a different color everytime the page loads)
+//                  will contain a different color every time the page loads)
 var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 var randomColor = colors[Math.floor(Math.random() * colors.length)];
 /**
@@ -215,7 +217,8 @@ var total = prompt("What is the total of your bill?");
 
 alert("Okay, so your original total was $" + total + ". " +
     "Your lucky discount number was " + luckyNumber + ", so now your new " +
-    "total is $" + calculateTotal(luckyNumber, total) + ".");
+    "total is $" + (total - (calculateTotal(luckyNumber, total))) +
+    ".");
 
 
 

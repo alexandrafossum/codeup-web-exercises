@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33177d1b-1910-40b8-96c3-980647cffb7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/conditionals.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/blog-desktop.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/bootstrap-practice-personal.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/coming-soon.css" afterDir="false" />
@@ -17,7 +16,7 @@
       <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/twitter.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/webpage-generic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/conditionals.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/conditionals.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/conditionals.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="217" column="52" selection-start-line="217" selection-start-column="52" selection-end-line="217" selection-end-column="52" />
+            <state relative-caret-position="548">
+              <caret line="223" lean-forward="true" selection-start-line="223" selection-end-line="223" />
             </state>
           </provider>
         </entry>
@@ -159,7 +158,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554404682470" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554405163715" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -205,15 +204,16 @@
       <workItem from="1554217874597" duration="9173000" />
       <workItem from="1554249364064" duration="9254000" />
       <workItem from="1554262247110" duration="17235000" />
-      <workItem from="1554388028655" duration="12077000" />
+      <workItem from="1554388028655" duration="12322000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194160000" />
+    <option name="totallyTimeSpent" value="194405000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="573" y="23" width="707" height="777" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.5063063" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -232,7 +232,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4995587" visible="true" weight="0.5678832" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4995587" weight="0.5678832" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5004413" side_tool="true" weight="0.32713178" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -577,8 +577,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/conditionals.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="217" column="52" selection-start-line="217" selection-start-column="52" selection-end-line="217" selection-end-column="52" />
+        <state relative-caret-position="548">
+          <caret line="223" lean-forward="true" selection-start-line="223" selection-end-line="223" />
         </state>
       </provider>
     </entry>
