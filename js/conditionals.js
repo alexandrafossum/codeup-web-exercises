@@ -1,4 +1,3 @@
-
 "use strict";
 
 /**
@@ -17,36 +16,64 @@
  * Can you refactor your code to use functions?
  */
 
-confirm("Would you like to enter a number?");
+// INSTRUCTOR WALKTHROUGH SOLUTION
 
-var number = prompt("Okay, please enter a number: ");
+var start = confirm("Would you like to enter a number?");
 
-function evenOddNumber(number) {
-    if (number % 2 === 0) {
-        return number + " is even";
-    } else {
-        return number + " is odd";
+if (start === true) {
+    var number = parseInt(prompt("Okay, please enter a number: "));
+    if (isNaN(number)) {
+        alert("That is not a number!");
     }
-}
-
-function add100(number) {
-    return parseInt(100) + parseInt(number);
-}
-
-function positiveNegative(number) {
-    if (Math.sign(number) == 1) {
-        return "positive";
-    } else if (Math.sign(number) == -1) {
-        return "negative";
-    } else {
-        return "neither positive nor negative";
+        if (number % 2 === 0) {
+            alert(number + "is even!");
+        } else {
+            alert(number + "is odd!");
+        }
+        alert(number + "plus 100 is " + (number + 100) + "!");
+        if (number >= 0) {
+            alert(number + " is positive!");
+        } else {
+            alert(number + " is negative!");
+        }
     }
-}
 
 
-alert(number + " is " + evenOddNumber(number));
-alert(number + " is " + positiveNegative(number));
-alert(number + " + 100 is " + add100(number));
+    alert(number + " is " + evenOddNumber(number));
+    alert(number + " is " + positiveNegative(number));
+    alert(number + " + 100 is " + add100(number));
+
+
+
+        confirm("Would you like to enter a number?");
+        var number = prompt("Okay, please enter a number: ");
+
+        function evenOddNumber(number) {
+            if (number % 2 === 0) {
+                return number + " is even";
+            } else {
+                return number + " is odd";
+            }
+        }
+
+    function add100(number) {
+        return parseInt(100) + parseInt(number);
+    }
+
+    function positiveNegative(number) {
+        if (Math.sign(number) == 1) {
+            return "positive";
+        } else if (Math.sign(number) == -1) {
+            return "negative";
+        } else {
+            return "neither positive nor negative";
+        }
+    }
+
+
+    alert(number + " is " + evenOddNumber(number));
+    alert(number + " is " + positiveNegative(number));
+    alert(number + " + 100 is " + add100(number));
 
 
 /* ########################################################################## */
@@ -70,25 +97,27 @@ alert(number + " + 100 is " + add100(number));
  */
 
 function analyzeColor(color) {
+    var message;
     if (color === "red") {
-        return "Strawberries are red.";
+        message = "Strawberries are red.";
     } else if (color === "orange") {
-        return "Which came first? Orange or the orange?";
+        message = "Which came first? Orange or the orange?";
     } else if (color === "yellow") {
-        return "Coldplay has ruined this color.";
+        message = "Coldplay has ruined this color.";
     } else if (color === "green") {
-        return "Green is the color of grass.";
+        message = "Green is the color of grass.";
     } else if (color === "blue") {
-        return "Blue is color of the sky and sea";
+        message = "Blue is color of the sky and sea.";
     } else if (color === "indigo") {
-        return "I used to think his name was Indigo Montoya.";
+        message = "I used to think his name was Indigo Montoya.";
     } else if (color === "violet") {
-        return "Three bunches of violets trod in the mud.";
+        message = "Three bunches of violets trod in the mud.";
     } else if (color === "cyan") {
-        return "I don't know a goddamn thing about cyan";
+        message = "I don't know a goddamn thing about cyan.";
     } else {
-        return "That input is unfamiliar to me";
+        message = "That input is unfamiliar to me.";
     }
+    return message;
 }
 
 console.log(analyzeColor(randomColor));
@@ -106,42 +135,46 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
  * You should see a different message every time you refresh the page
  */
 
-analyzeColor(randomColor);
-
-console.log(randomColor);
+console.log(analyzeColor(randomColor));
 
 /**
  * TODO:
  * Refactor your above function to use a switch-case statement
  */
 
-    var colour = prompt("Enter a color: ");
+var color = prompt("Enter a color: ");
 
-    switch (colour) {
+function analyzeColorSwitch() {
+    var message;
+    switch (color) {
         case "red":
-            console.log("The Hunt for Red October");
+            message = ("The Hunt for Red October");
             break;
         case "orange":
-            console.log("A Clockwork Orange");
+            message = ("A Clockwork Orange");
             break;
         case "yellow":
-            console.log("Yellow Submarine");
+            message = ("Yellow Submarine");
             break;
         case "green":
-            console.log("The Green Mile");
+            message = ("The Green Mile");
             break;
         case "blue":
-            console.log("Blue is the Warmest Color");
+            message = ("Blue is the Warmest Color");
             break;
         case "indigo":
-            console.log("Mood Indigo");
+            message = ("Mood Indigo");
             break;
         case "violet":
-            console.log("Violet & Daisy");
+            message = ("Violet & Daisy");
             break;
         default:
-            console.log("I am not programmed to have a response to this color. Please use ROYGBIV.");
+            message = ("I am not programmed to have a response to this color. Please use ROYGBIV.");
     }
+    return message
+}
+
+
 
 /**
  * TODO:
@@ -150,7 +183,10 @@ console.log(randomColor);
  * function to show it to the user.
  */
 
-alert(analyzeColor(colour));
+var colorPrompt = prompt("Choose a color.");
+var userInput = analyzeColorSwitch(colorPrompt);
+
+alert(userInput);
 
 /* ########################################################################## */
 
@@ -175,28 +211,32 @@ alert(analyzeColor(colour));
  */
 
 function calculateTotal(luckyNumber, total) {
-    switch (luckyNumber) {
+    var finalTotal;
+    total = parseFloat(total);
+    switch (parseInt(luckyNumber)) {
         case 0:
-            return total * 1;
+            finalTotal = total * 1;
             break;
         case 1:
-            return total * .10;
+            finalTotal = total - (total * .10);
             break;
         case 2:
-            return total * .25;
+            finalTotal = total - (total * .25);
             break;
         case 3:
-            return total * .35;
+            finalTotal = total - (total * .35);
             break;
         case 4:
-            return total * .50;
+            finalTotal = total - (total * .50);
             break;
         case 5:
-            return total * 0;
+            finalTotal = 0;
             break;
         default:
-            return total;
+            finalTotal = total;
+            break;
     }
+    return finalTotal;
 }
 
 //console.log(calculateTotal(3, 23));
@@ -211,7 +251,7 @@ function calculateTotal(luckyNumber, total) {
  */
 // Generate a random number between 0 and 6
 
-var luckyNumber = Math.floor(Math.random() * 5);
+var luckyNumber = Math.floor(Math.random() * 5 + 1);
 
 var total = prompt("What is the total of your bill?");
 
