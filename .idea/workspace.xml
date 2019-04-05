@@ -41,19 +41,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/portfolio-personal.html">
+        <entry file="file://$PROJECT_DIR$/forms.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/portfolio-personal.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1282">
-              <caret line="158" column="30" lean-forward="true" selection-start-line="158" selection-start-column="30" selection-end-line="158" selection-end-column="30" />
+            <state relative-caret-position="60">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -93,7 +84,6 @@
         <option value="$PROJECT_DIR$/css/github-html-styles.css" />
         <option value="$PROJECT_DIR$/github.html" />
         <option value="$PROJECT_DIR$/query_strings.html" />
-        <option value="$PROJECT_DIR$/forms.html" />
         <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/register.html" />
         <option value="$PROJECT_DIR$/checkout.css" />
@@ -141,6 +131,7 @@
         <option value="$PROJECT_DIR$/js/conditionals.js" />
         <option value="$PROJECT_DIR$/portfolio-personal.html" />
         <option value="$PROJECT_DIR$/css/portfolio-personal.css" />
+        <option value="$PROJECT_DIR$/forms.html" />
       </list>
     </option>
   </component>
@@ -180,7 +171,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554423372475" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554472605478" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -226,17 +217,17 @@
       <workItem from="1554217874597" duration="9173000" />
       <workItem from="1554249364064" duration="9254000" />
       <workItem from="1554262247110" duration="17235000" />
-      <workItem from="1554388028655" duration="21028000" />
+      <workItem from="1554388028655" duration="21321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203111000" />
+    <option name="totallyTimeSpent" value="203404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="573" y="23" width="707" height="777" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.50526315" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.50526315" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -253,7 +244,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4995587" visible="true" weight="0.5678832" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4995587" weight="0.5678832" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5004413" side_tool="true" weight="0.32713178" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -270,7 +261,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/checkout.css" />
     <entry file="file://$PROJECT_DIR$/css/checkout.css" />
     <entry file="file://$PROJECT_DIR$/property-search.css" />
     <entry file="file://$USER_HOME$/Desktop/fix/checkout1.html">
@@ -589,6 +579,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio-personal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/portfolio-personal.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1282">
@@ -596,10 +593,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio-personal.html">
+    <entry file="file://$PROJECT_DIR$/forms.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="60">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
