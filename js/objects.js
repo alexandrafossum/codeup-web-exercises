@@ -17,6 +17,11 @@
     //     person["lastName"] = "fossum"
     // };
 
+    // var person = {};
+    //
+    // person.firstName = "Luke";
+    // person.lastName = "Skywalker";
+
     /**
      * TODO:
      * Add a sayHello method to the person object that returns a greeting using
@@ -30,10 +35,14 @@
     var person = {
         firstName: "alexandra",
         lastName: "fossum",
-        sayHello: function () {
+        sayHello: function() {
             return "hello from " + person.firstName + " " + person.lastName + "!";
         }
     };
+
+    // person.sayHello function() {
+    //      return "Hello from " + this.firstName + " " + this.lastName + ".";
+    // }; <-- another way to add a function to an object
 
     console.log(person.sayHello());
 
@@ -74,11 +83,11 @@
             discount = shoppers.amount * .12;
             total = shoppers.amount - discount;
 
-            console.log(shoppers.name + "'s total is " + total);
+            console.log(shoppers.name + "'s original total was $" + shoppers.amount + " but is now $" + total.toFixed(2));
 
         } else if (shoppers.amount < 200) {
 
-            console.log(shoppers.name + " doesn't qualify for a discount.");
+            console.log(shoppers.name + "'s total is $" + shoppers.amount + ", so they don't qualify for a discount.");
         }
 
     });
@@ -168,26 +177,24 @@
      *      ...
      */
 
-    books.forEach(function(i) {
-        for (i = 0; i < books.length; i++) {
-            console.log("Book # " + (i + 1));
-            console.log("Title: " + books[i].title);
-            console.log("Author: " + books[i].author.firstName + " " + books[i].author.lastName);
-            console.log("---");
-        }
-    });
-
-    // function bookList (books) {
-    //     var bookLength = books.length;
-    //     for (i = 0; i < bookLength; i++) {
+    // books.forEach(function(i) {
+    //     for (i = 0; i < books.length; i++) {
     //         console.log("Book # " + (i + 1));
     //         console.log("Title: " + books[i].title);
     //         console.log("Author: " + books[i].author.firstName + " " + books[i].author.lastName);
     //         console.log("---");
     //     }
-    // }
+    // });  ARGHHHHH!
 
-    // console.log(bookList());
+    books.forEach(function(book, i) {
+        var output = "";
+        output += "Book # " + (i + 1) + "\n";
+        output += "Title: " + book.title + "\n";
+        output += "Author: " + book.author.firstName + " " + book.author.lastName;
+        console.log(output);
+        console.log("---");
+    });
+
 
     /**
      * Bonus:
@@ -204,7 +211,6 @@
 
     }
 
-
     var beverages = [
         {
             brandName: "Wheatley's",
@@ -214,7 +220,8 @@
             expirationDate: "N/A",
             dateTimesOfLastSips: "N/A",
             isOpen: "no"
-        }, {
+        },
+        {
             brandName: "Beefeater",
             type: "gin",
             volumeInLiters: "",
@@ -222,7 +229,8 @@
             expirationDate: "",
             dateTimesOfLastSips: "",
             isOpen: ""
-        }, {
+        },
+        {
             brandName: "Evan Williams",
             type: "bourbon whiskey",
             volumeInLiters: "",
