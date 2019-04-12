@@ -177,6 +177,17 @@
         }
     });
 
+    // function bookList (books) {
+    //     var bookLength = books.length;
+    //     for (i = 0; i < bookLength; i++) {
+    //         console.log("Book # " + (i + 1));
+    //         console.log("Title: " + books[i].title);
+    //         console.log("Author: " + books[i].author.firstName + " " + books[i].author.lastName);
+    //         console.log("---");
+    //     }
+    // }
+
+    // console.log(bookList());
 
     /**
      * Bonus:
@@ -192,6 +203,35 @@
     function createBook(title, author) {
 
     }
+
+
+    var beverages = [
+        {
+            brandName: "Wheatley's",
+            type: "vodka",
+            volumeInLiters: "",
+            priceInCents: "",
+            expirationDate: "N/A",
+            dateTimesOfLastSips: "N/A",
+            isOpen: "no"
+        }, {
+            brandName: "Beefeater",
+            type: "gin",
+            volumeInLiters: "",
+            priceInCents: "",
+            expirationDate: "",
+            dateTimesOfLastSips: "",
+            isOpen: ""
+        }, {
+            brandName: "Evan Williams",
+            type: "bourbon whiskey",
+            volumeInLiters: "",
+            priceInCents: "",
+            expirationDate: "",
+            dateTimesOfLastSips: "",
+            isOpen: ""
+        }
+    ];
 
 
 })();
