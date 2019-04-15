@@ -8,11 +8,11 @@
 
 <h1 id="main-header">Hello World!</h1>
 <ul>
-    <li data-dbid="1">Item 1</li>
-    <li data-dbid="2">Item 2</li>
-    <li data-dbid="3">Item 3</li>
-    <li data-dbid="4">Item 4</li>
-    <li data-dbid="5">Item 5</li>
+    <li id="one" data-dbid="1">Item 1</li>
+    <li id="two" data-dbid="2">Item 2</li>
+    <li id="three" data-dbid="3">Item 3</li>
+    <li id="four" data-dbid="4">Item 4</li>
+    <li id="five" data-dbid="5">Item 5</li>
 </ul>
 <h2 id="sub-header">Hello Again.</h2>
 <p class="sub-paragraph">
@@ -24,6 +24,11 @@
     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
     culpa qui officia deserunt mollit anim id est laborum.
 </p>
+
+<button id="main-header-button">Change header text</button>
+<button id="sub-header-button">Change sub-header</button>
+<button id="sub-paragraph-button">Change sub-paragraph</button>
+<button id="li-button">Change list items</button>
 
 <script>
     (function() {
@@ -60,7 +65,44 @@
         var subParagraphs = document.getElementsByClassName('sub-paragraph');
 
         // TODO: Change the text in the first sub paragraph to "Mission Accomplished!"
-        subParagraphs[0].innerText = "Mission Accomplished!";
+        // subParagraphs[0].innerText = "Mission Accomplished!";
+
+
+        //BUTTONS
+
+        var headerButton = document.getElementById('main-header-button');
+        var subButton = document.getElementById('sub-header-button');
+        var paraButton = document.getElementById('sub-paragraph-button');
+        var listItemButton = document.getElementById('li-button');
+        var itemOne = document.getElementById('one');
+        var itemTwo = document.getElementById('two');
+        var itemThree = document.getElementById('three');
+        var itemFour = document.getElementById('four');
+        var itemFive = document.getElementById('five');
+
+        headerButton.addEventListener('click', header, false);
+        function header (event){
+            mainHeader.innerText = "This is madness";
+        }
+
+        subButton.addEventListener('click', subHeading, false);
+        function subHeading (event) {
+            subHeader.innerText = "If we took the bones out, it wouldn't be crunchy, would it?";
+        }
+
+        paraButton.addEventListener('click', paragraphEdit, false);
+        function paragraphEdit (event) {
+            subParagraphs[0].innerText = "The Lady of the Lake, her arm clad in the purest shimmering samite held aloft Excalibur from the bosom of the water, signifying by divine providence that I, Arthur, was to carry Excalibur. THAT is why I am your king.";
+        }
+
+        listItemButton.addEventListener('click', liButton, false);
+        function liButton(event) {
+            itemOne.innerText = "I'm a lumberjack and I'm okay";
+            itemTwo.innerText = "I sleep all night and work all day";
+            itemThree.innerText = "I cut down trees, I eat my lunch, I go to the lavatory";
+            itemFour.innerText = "On Wednesdays I go shopping and have buttered scones for tea";
+            itemFive.innerText = "I cut down trees, I skip and jump, I like to press wild flowers";
+        }
 
     })();
 </script>
