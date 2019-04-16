@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <style>
+        body {
+            background-image: url(img/round.png);
+            font-family: "Andale Mono", Sans-Serif;
+        }
+        li {
+            list-style-type: none;
+        }
+    </style>
     <meta charset="UTF-8">
     <title>DOM: Query and Modify</title>
 </head>
@@ -65,7 +74,7 @@
         var subParagraphs = document.getElementsByClassName('sub-paragraph');
 
         // TODO: Change the text in the first sub paragraph to "Mission Accomplished!"
-        // subParagraphs[0].innerText = "Mission Accomplished!";
+        subParagraphs[0].innerText = "Mission Accomplished!";
 
 
         //BUTTONS
