@@ -1,10 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <title>Favourite Restaurants</title>
 
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body {
+            margin: 15px;
+        }
+        h1 {
+            text-align: center;
+        }
+        form {
+            padding-bottom: 15px;
+            padding-left: 9%;
+        }
+        .flex-container button {
+            display: flex;
+            flex-flow: row wrap;
+            padding: auto;
+        }
+        #map {
+            width: 130vh;
+            height: 80vh;
+            margin: 0 auto;
+        }
+    </style>
 </head>
 <body>
 
+<h1>My Favourite Restaurants</h1>
 
+<div class="flex-container">
+    <button id="zoom5">Zoom x5</button>
+    <button id="zoom15">Zoom x15</button>
+    <button id="zoom20">Zoom x20</button>
+</div>
+
+<div id='map'></div>
+<script src="js/keys.js"></script>
+<script src="js/mapbox-geocoder-utils.js"></script>
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js'></script>
+<script>
+    mapboxgl.accessToken = mapboxKey;
+
+    var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v10',
+        center: [-98.488596, 29.416425],
+        zoom: 14
+    });
+
+    // MARKERS AND POPUPS
+
+    var marker = new mapboxgl.Marker()
+        .setLngLat([-98.488596, 29.416425])
+        .addTo(map);
+
+    var popup = new mapboxgl.Popup()
+        .setLngLat([-98.488596, 29.416425])
+        .setHTML("<p>La Frite Belgian Bistro <br> " +
+            "<strong>Address:</strong> 728 S Alamo Street </p>");
+
+    var marker2 = new mapboxgl.Marker()
+        .setLngLat([-98.4881747, 29.4179482])
+        .addTo(map);
+
+    var popup2 = new mapboxgl.Popup()
+        .setLngLat([-98.4881747, 29.4179482])
+        .setHTML("<p>Battalion <br> <strong>Address:</strong> 604 S Alamo Street </p>");
+
+    var marker3 = new mapboxgl.Marker()
+        .setLngLat([-98.501111, 29.409817])
+        .addTo(map);
+
+    var popup3 = new mapboxgl.Popup()
+        .setLngLat([-98.501111, 29.409817])
+        .setHTML("<p>The Fruteria <br> " +
+            "<strong>Address:</strong> 1401 S Flores Street </p>");
+
+    marker.setPopup(popup);
+    marker2.setPopup(popup2);
+    marker3.setPopup(popup3);
+
+
+    // TARGET IDs
+
+    var zoomIn5 = document.getElementById('zoom5');
+    var zoomIn15 = document.getElementById('zoom15');
+    var zoomIn20 = document.getElementById('zoom20');
+
+
+    //FUNCTIONS TO CHANGE ZOOM
+
+    zoomIn5.addEventListener('click', zoomFive, true);
+    function zoomFive (event) {
+        map.setZoom(5);
+    }
+
+    zoomIn15.addEventListener('click', zoomFifteen, true);
+    function zoomFifteen (event) {
+        map.setZoom(15);
+    }
+
+    zoomIn20.addEventListener('click', zoomTwenty, true);
+    function zoomTwenty (event) {
+        map.setZoom(20);
+    }
+
+    var restaurants = [
+        {
+            restaurant: "La Frite",
+            address: "728 S Alamo Street",
+            hours: ""
+        },{
+            restaurant: "Battalion",
+            address: "604 S Alamo Street"
+        },{
+            restaurant: "The Fruteria",
+            address: "1401 S Flores Street"
+        }
+    ];
+
+
+
+
+</script>
 </body>
 </html>
