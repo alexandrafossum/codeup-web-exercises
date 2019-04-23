@@ -28,7 +28,30 @@
 
 
 
+$("h1").click(function(e) {
+    $(e.target).css("background", "dodgerblue");
+});
+
+$("h1").dblclick(function(e) {
+    $(e.target).css("background", "white");
+});
+
+$("p").dblclick(function () {
+    $(this).css("font-size", "18px");
+});
+
+$("li").hover(function() {
+    $(this).css("color", "red");
+}, function() {
+    $(this).css("color", "black");
+});
 
 
-
+$(".container").hover(function() {
+    $(this).css({"background": "salmon",
+                        "color": "white"});
+}, function() {
+    $(this).css({"background": "white",
+                        "color": "black"});
+});
 
