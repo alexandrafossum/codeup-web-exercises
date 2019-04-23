@@ -20,13 +20,9 @@
       <change afterPath="$PROJECT_DIR$/css/test.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/twitter.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/webpage-generic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery_exercises.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery_exercises.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/chair.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/chair.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/kitchen_woman.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/kitchen_woman.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/plant.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/plant.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/water_woman.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/water_woman.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapbox_maps_api.html" beforeDir="false" afterPath="$PROJECT_DIR$/mapbox_maps_api.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-personal.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-personal.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,20 +47,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/portfolio-personal.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jquery_exercises.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="128" column="14" lean-forward="true" selection-start-line="128" selection-start-column="14" selection-end-line="128" selection-end-column="14" />
+            <state relative-caret-position="375">
+              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/portfolio-personal.css">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/jquery_exercises.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3750">
-              <caret line="250" column="5" selection-start-line="250" selection-start-column="5" selection-end-line="250" selection-end-column="5" />
+            <state relative-caret-position="306">
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -75,8 +71,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -103,11 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/blog-desktop.css" />
-        <option value="$PROJECT_DIR$/css/order-pizza.css" />
-        <option value="$PROJECT_DIR$/order-pizza.html" />
-        <option value="$PROJECT_DIR$/webpage-generic.html" />
-        <option value="$PROJECT_DIR$/css/bootstrap-practice-personal.css" />
         <option value="$PROJECT_DIR$/bootstrap-practice-personal.html" />
         <option value="$PROJECT_DIR$/willdeletelater.html" />
         <option value="$PROJECT_DIR$/JS Practice.html" />
@@ -154,6 +145,11 @@
         <option value="$PROJECT_DIR$/mapbox_maps_api.html" />
         <option value="$PROJECT_DIR$/css/portfolio-personal.css" />
         <option value="$PROJECT_DIR$/portfolio-personal.html" />
+        <option value="$PROJECT_DIR$/jquery-exercises.js" />
+        <option value="$PROJECT_DIR$/jquery-exercises.html" />
+        <option value="$PROJECT_DIR$/js/jquery-exercises.js" />
+        <option value="$PROJECT_DIR$/jquery_exercises.html" />
+        <option value="$PROJECT_DIR$/js/jquery_exercises.js" />
       </list>
     </option>
   </component>
@@ -163,11 +159,10 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="543" />
-    <option name="y" value="23" />
-    <option name="width" value="737" />
-    <option name="height" value="675" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="646" />
+    <option name="width" value="634" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -185,7 +180,7 @@
             <path>
               <item name="codeup-web-exercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="codeup-web-exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -199,7 +194,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555453596792" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556034835753" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -209,8 +204,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -266,18 +261,18 @@
       <workItem from="1555960645606" duration="4000" />
       <workItem from="1555960812340" duration="5000" />
       <workItem from="1555961303797" duration="346000" />
-      <workItem from="1555961940912" duration="1832000" />
+      <workItem from="1555961940912" duration="8776000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="313372000" />
+    <option name="totallyTimeSpent" value="320316000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="543" y="23" width="737" height="675" extended-state="0" />
+    <frame x="646" y="0" width="634" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.36173186" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.35884354" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -294,7 +289,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4976452" weight="0.56542057" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4976452" weight="0.5643225" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5023548" side_tool="true" weight="0.5669782" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24874792" />
@@ -345,20 +340,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/blog-desktop.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order-pizza.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1303">
-          <caret line="116" column="8" selection-start-line="116" selection-start-column="8" selection-end-line="116" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/order-pizza.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="593">
@@ -664,6 +645,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio-personal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="129" column="10" lean-forward="true" selection-start-line="129" selection-start-column="10" selection-end-line="129" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/portfolio-personal.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3750">
@@ -671,10 +659,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio-personal.html">
+    <entry file="file://$PROJECT_DIR$/jquery_exercises.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="128" column="14" lean-forward="true" selection-start-line="128" selection-start-column="14" selection-end-line="128" selection-end-column="14" />
+        <state relative-caret-position="375">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery_exercises.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
         </state>
       </provider>
     </entry>
