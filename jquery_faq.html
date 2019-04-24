@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            padding: 20px;
+        }
+
+        dt {
+            padding: 2px;
+        }
+
+        .row button {
+            border: 1px solid dodgerblue;
+            margin: 0 auto;
+        }
+
+        .invisible {
+            visibility: hidden;
+        }
+
+    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<h1>Top 10 Questions for Blåfjella–Skjækerfjella National Park</h1>
+<hr>
+<div class="row">
+    <button id="reveal">Reveal</button>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10">
+            <dl>
+                <dt><strong>Where is Blåfjella–Skjækerfjella National Park located?</strong></dt>
+                <dd class="invisible">In Trøndelag county, central Norway, and spans the municipalities of Verdal,
+                    Snåsa, Grong,
+                    Lierne, and Steinkjer
+                </dd>
+                <dt><strong>How big is Blåfjella–Skjækerfjella National Park?</strong></dt>
+                <dd class="invisible">The park covers 1,924 km<sup>2</sup> (743 mi<sup>2</sup>) of land</dd>
+                <dt><strong>What wildlife can you expect to see here?</strong></dt>
+                <dd class="invisible">A wide variety including Artic fox, brown bears, roe and red deer, moose, lynx,
+                    and
+                    wolverines
+                </dd>
+                <dt><strong>What plantlife is common here?</strong></dt>
+                <dd class="invisible">Blåfjella–Skjækerfjella is famous for its spruce trees as this is the first place
+                    they were
+                    introduced to in Norway. The park is full of old-growth forests with the soil being very condusive
+                    to plant
+                    life.
+                </dd>
+                <dt><strong>What does Blåfjella–Skjækerfjella mean?</strong></dt>
+                <dd class="invisible">The park was given this name in 2004. The name is likely derived from Sami names
+                    for the area,
+                    and roughly means Shafts of Blue Mountains
+                </dd>
+                <dt><strong>How does this park rank compared to other parks?</strong></dt>
+                <dd class="invisible">While every park is unique, we consider Blåfjella–Skjækerfjella truly special. It
+                    is also the
+                    third-largest park on the Norwegian mainland
+                </dd>
+                <dt><strong>What are the names of reserves attached to the park?</strong></dt>
+                <dd class="invisible">There are four reserves surrounding Blåfjella–Skjækerfjella: Arvasslia Nature
+                    Reserve,
+                    Berglimyra and Klumplifjellet Nature Reserve, Gaundalsmyra Nature Reserve, and Storfloa Nature
+                    Reserve
+                </dd>
+                <dt><strong>What kind of terrain can you expect?</strong></dt>
+                <dd class="invisible">The park contains fields of wildflowers, alpine forests, and lakes</dd>
+                <dt><strong>What activities are allowed in the park?</strong></dt>
+                <dd class="invisible">This park is popular with hikers as well as avid fishers and hunters</dd>
+                <dt><strong>Is there an entrance fee?</strong></dt>
+                <dd class="invisible">No, these parks are open to all visitors</dd>
+            </dl>
+        </div>
+        <div class="col-1"></div>
+    </div>
+</div>
+
+<script src="js/jquery-2.2.4.js"></script>
+<script>
+    "use strict";
+
+    $(document).ready(function () {
+        $('#reveal').click(function (e) {
+            $('dd').toggleClass('invisible');
+        });
+    });
+
+</script>
+</body>
+</html>
