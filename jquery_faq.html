@@ -3,25 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <style>
-        body {
-            padding: 20px;
-        }
-
-        dt {
-            padding: 2px;
-        }
-
-        .row button {
-            border: 1px solid dodgerblue;
-            margin: 0 auto;
-        }
-
-        .invisible {
-            visibility: hidden;
-        }
-
-    </style>
+    <link rel="stylesheet" href="css/jquery_faq.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -82,18 +64,62 @@
         </div>
         <div class="col-1"></div>
     </div>
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10">
+            <hr>
+            <h3>Jomfruland National Park</h3>
+            <ul>
+                <li>98% of the park is sea</li>
+                <li>Jomfruland is 117 km<sub>2</sub></li>
+                <li>Was established 16 December 2016</li>
+                <li>Located in Kragerø</li>
+            </ul>
+
+            <h3>Varangerhalvøya National Park</h3>
+            <ul>
+                <li>Located on the Varanger Peninsula, Finnmark County</li>
+                <li>This peninsula is the largest area within the Arctic Circle in mainland Norway</li>
+                <li>Has an alpine ecosystem rich with reindeer, wolverine, and Arctic foxes</li>
+                <li>The name roughly means fishing village fjord peninsula</li>
+            </ul>
+
+            <h3>Sjunkhatten National Park</h3>
+            <ul>
+                <li>Located in Nordland</li>
+                <li>Covers 417 km<sub>2</sub> of land and 40 km<sub>2</sub> of sea</li>
+                <li>Established 5 February 2010</li>
+                <li>Covers glacier-formed landscapes, caves, fjords, and Lake Heggmovatnet</li>
+            </ul>
+            <button id="list-btn">Toggle</button>
+            <br>
+            <hr>
+        </div>
+        <div class="col-1"></div>
+        <hr>
+    </div>
+    <div class="row">
+        <div class="col-4 picture-1">
+            <img id="hillside-pic" src="img/blafjella_1.jpg">
+            <hr>
+            <button class="list-btns" id="pic-btn-1">Swap</button>
+        </div>
+        <div class="col-4 picture-2">
+            <img id="lake-pic" src="img/blafjella_2.jpg">
+            <hr>
+            <button class="list-btns" id="pic-btn-2">Swap</button>
+        </div>
+        <div class="col-4 picture-3">
+            <img id="hiker-pic" src="img/blafjella_3.jpg">
+            <hr>
+            <button class="list-btns" id="pic-btn-3">Swap</button>
+        </div>
+    </div>
+
 </div>
 
 <script src="js/jquery-2.2.4.js"></script>
-<script>
-    "use strict";
+<script src="js/jquery_faq.js"></script>
 
-    $(document).ready(function () {
-        $('#reveal').click(function (e) {
-            $('dd').toggleClass('invisible');
-        });
-    });
-
-</script>
 </body>
 </html>
