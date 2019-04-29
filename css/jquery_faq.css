@@ -11,8 +11,39 @@ img {
     max-height: 100%;
     object-fit: contain;
     padding: 10px;
-    border: 10px solid black;
-    background-color: black
+    border: 10px #FFC038;
+    background-color: #FFC038;
+}
+
+ul {
+    display:none;
+}
+
+.modal {
+    position:fixed;
+}
+
+.register-button {
+    text-align: center;
+}
+
+.row .fade-in button {
+    text-align: center;
+    display:none;
+    color: crimson;
+    border: 1px solid crimson;
+    background: none;
+    border-radius: 5px;
+}
+
+.fade-in button:hover {
+    color: white;
+    background: crimson;
+    border: 1px solid crimson;
+}
+
+.newsletter div {
+    text-align: center;
 }
 
 .row #reveal {
@@ -20,6 +51,11 @@ img {
     border-radius: 5px;
     margin: 0 auto;
     color: dodgerblue;
+}
+
+.row #reveal:hover {
+    color: white;
+    background: dodgerblue;
 }
 
 .invisible {
@@ -32,9 +68,23 @@ img {
     color: dodgerblue;
 }
 
+.row #list-btn:hover {
+    color: white;
+    background: dodgerblue;
+}
+
 .list-btns {
     border: 1px solid dodgerblue;
     border-radius: 5px;
     color: dodgerblue;
     margin: 0 auto;
+}
+
+.list-btns:hover {
+    color: white;
+    background: dodgerblue;
+}
+
+#hide span {
+    text-align: center;
 }
