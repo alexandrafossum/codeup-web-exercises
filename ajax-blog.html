@@ -1,27 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/ajax-blog.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans|Open+Sans+Condensed:300|Playfair+Display" rel="stylesheet">
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Wee Blog</title>
 </head>
 <body>
 
+<!--HEADING-->
 
+<div class="container">
+    <div class="row">
+        <div class="col-1"></div>
+            <div class="col-10 title">
+            <h2 class="title">Run-of-the-Mill</h2>
+                <hr>
+            </div>
+        <div class="col-1"></div>
+        </div>
+    </div>
 
+<!--NAVBAR-->
 
+<nav class="navbar navbar-light bg-light">
+    <button class="btn navbar-brand fab fa-blogger"><img id="logo" src="img/ajax-blog-logo.svg" width="30px"></button>
+    <button class="btn navbar-brand" id="show-posts">Posts</button>
+    <button class="btn navbar-brand" id="contact-info">Contact</button>
+    <button class="btn navbar-brand" id="sign-up">Sign up</button>
+</nav>
 
+<!--BLOG POSTS-->
 
+<div class="blog-posts" id="posts"></div>
+
+<!--CONTACT INFO-->
+
+<div class="row contacts">
+    <div class="col-3">
+        <p id="contact-me">Contact</p>
+    </div>
+    <div class="col-4">
+        <p><a href="facetime-audio:202-55-0179">202-555-0179</a></p>
+    </div>
+    <div class="col-5">
+        <p><a href="mailto:brunhilde@runofthemill.co.uk">brunhilde@runofthemill.co.uk</a></p>
+    </div>
+</div>
+
+<!--NEWSLETTER FORM-->
+
+<div class="row newsletter">
+    <div class="col 2"></div>
+    <div class="col 8 newsletter-form">
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <div class="col 2"></div>
+</div>
+
+<!--SCRIPTS-->
 
 <script src="js/jquery-2.2.4.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script>
-    "use strict";
-
-
-
-</script>
+<script src="js/ajax-blog.js"></script>
 
 </body>
 </html>

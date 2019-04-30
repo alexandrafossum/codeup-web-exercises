@@ -1,0 +1,74 @@
+body {
+    padding: 15px;
+    /*background-image: url("img/whirlpool.png");*/
+}
+
+.btn {
+    background-color: transparent;
+    border: 1px solid #ff916f;
+    border-radius: 5px;
+    font-family: 'Lobster', 'sans-serif';
+    color: #ff916f !important;
+}
+
+.btn:hover {
+    background-color: #ff916f;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF !important;
+}
+
+nav {
+    margin-bottom: 50px;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #7F7F7F;
+}
+
+.blog-title {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: xx-large;
+}
+
+.blog-content {
+    background-color: rgba(255, 192, 56, .5);
+    padding: 15px;
+    border-radius: 7px;
+}
+
+.blog-categories {
+    background-color: rgba(178, 178, 178, 0.5);
+    padding: 9px;
+    border-radius: 7px;
+}
+
+.blog-date {
+    background-color: rgba(241, 241, 241, 0.75);
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.contacts {
+    text-align: justify;
+}
+
+.contacts a {
+    color: #FF916F;
+    font-family: 'Lobster', sans-serif;
+}
+
+.contacts a:hover {
+    letter-spacing: 3px;
+    text-decoration-style: wavy;
+}
+
+#contact-me {
+    font-family: 'Playfair Display', serif;
+    font-size: large;
+}
+
+img {
+    opacity: 0.5;
+}

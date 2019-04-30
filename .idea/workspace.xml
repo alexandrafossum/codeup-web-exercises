@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33177d1b-1910-40b8-96c3-980647cffb7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ajax-blog.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/blog-desktop.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/bootstrap-practice-personal.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/coming-soon.css" afterDir="false" />
@@ -23,6 +22,9 @@
       <change afterPath="$PROJECT_DIR$/css/twitter.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/webpage-generic.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax-blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/ajax-blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax-store.html" beforeDir="false" afterPath="$PROJECT_DIR$/ajax-store.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/inventory.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/inventory.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,24 +52,42 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ajax-blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-end-line="4" />
+            <state relative-caret-position="1886">
+              <caret line="166" column="18" selection-start-line="166" selection-start-column="18" selection-end-line="166" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/ajax-blog.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/blog.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="449" selection-start-line="28" selection-start-column="449" selection-end-line="28" selection-end-column="449" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ajax-store.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="56" column="7" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+            <state relative-caret-position="293">
+              <caret line="70" column="33" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/inventory.json">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -76,8 +96,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -100,14 +120,11 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/css" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/functions_js.html" />
-        <option value="$PROJECT_DIR$/js/functions.js" />
-        <option value="$PROJECT_DIR$/conditionals.html" />
         <option value="$PROJECT_DIR$/forms.html" />
         <option value="$PROJECT_DIR$/register.html" />
         <option value="$PROJECT_DIR$/query-strings.html" />
@@ -154,8 +171,11 @@
         <option value="$PROJECT_DIR$/js/jquery_faq.js" />
         <option value="$PROJECT_DIR$/jquery_faq.html" />
         <option value="$PROJECT_DIR$/css/jquery_faq.css" />
-        <option value="$PROJECT_DIR$/ajax-blog.html" />
         <option value="$PROJECT_DIR$/ajax-store.html" />
+        <option value="$PROJECT_DIR$/data/inventory.json" />
+        <option value="$PROJECT_DIR$/data/blog.json" />
+        <option value="$PROJECT_DIR$/ajax-blog.html" />
+        <option value="$PROJECT_DIR$/css/ajax-blog.css" />
       </list>
     </option>
   </component>
@@ -165,10 +185,11 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="741" />
-    <option name="width" value="539" />
-    <option name="height" value="800" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="673" />
+    <option name="y" value="23" />
+    <option name="width" value="607" />
+    <option name="height" value="738" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -183,6 +204,11 @@
               <item name="codeup-web-exercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="codeup-web-exercises" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="codeup-web-exercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeup-web-exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -195,7 +221,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556564018181" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556639765031" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -262,18 +288,17 @@
       <workItem from="1555960645606" duration="4000" />
       <workItem from="1555960812340" duration="5000" />
       <workItem from="1555961303797" duration="346000" />
-      <workItem from="1555961940912" duration="54600000" />
+      <workItem from="1555961940912" duration="71551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="366140000" />
+    <option name="totallyTimeSpent" value="383091000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="528" y="0" width="752" height="800" extended-state="6" />
-    <editor active="true" />
+    <frame x="673" y="23" width="607" height="738" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3530466" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34867257" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -341,20 +366,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/external.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="44" column="123" lean-forward="true" selection-start-line="44" selection-start-column="123" selection-end-line="44" selection-end-column="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/external_js.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inline_js.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -659,22 +670,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ajax-blog.html">
+    <entry file="file://$PROJECT_DIR$/ajax-store.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-end-line="4" />
+        <state relative-caret-position="293">
+          <caret line="70" column="33" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/inventory.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax-store.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="56" column="7" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+        <state relative-caret-position="555">
+          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/blog.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="449" selection-start-line="28" selection-start-column="449" selection-end-line="28" selection-end-column="449" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax-blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1886">
+          <caret line="166" column="18" selection-start-line="166" selection-start-column="18" selection-end-line="166" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/ajax-blog.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
