@@ -14,6 +14,7 @@
  *  })
  *
  */
+
 function geocode(search, token) {
     var baseUrl = 'https://api.mapbox.com';
     var endPoint = '/geocoding/v5/mapbox.places/';
