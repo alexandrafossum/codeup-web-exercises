@@ -138,7 +138,7 @@
                                '<p><strong>Pressure: </strong>' + pullWeatherObj.data[6] + '</p>');
         }
 
-        function dayThree(){
+        function dayThree(num){
             getData(2);
             $('#day-three').html('<h4>' + Math.trunc(pullWeatherObj.data[0]) + " / " + Math.trunc(pullWeatherObj.data[1]) + '</h4>' +
                                  '<p>' + pullWeatherObj.data[2]+ '</p>' +
