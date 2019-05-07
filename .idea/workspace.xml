@@ -23,11 +23,9 @@
       <change afterPath="$PROJECT_DIR$/css/twitter.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/weather_map.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/webpage-generic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/map-filter-reduce.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/promises.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/map-filter-reduce.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/promises_js.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/darksky-test.html" beforeDir="false" afterPath="$PROJECT_DIR$/darksky-test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/promises.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/promises.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,41 +50,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/es6.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/map-filter-reduce.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/map-filter-reduce.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="115" column="33" selection-start-line="115" selection-start-column="33" selection-end-line="115" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/promises.js">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/map-filter-reduce.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="112" selection-start-line="112" selection-end-line="112" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/keys.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="67" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/promises_js.html">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -97,8 +92,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -130,7 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/while-js.html" />
         <option value="$PROJECT_DIR$/loops-js.html" />
         <option value="$PROJECT_DIR$/js/for_loops.js" />
         <option value="$PROJECT_DIR$/loops.html" />
@@ -172,15 +166,16 @@
         <option value="$PROJECT_DIR$/css/ajax-blog.css" />
         <option value="$PROJECT_DIR$/ajax-blog.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/js/keys.js" />
         <option value="$PROJECT_DIR$/js/mapbox-geocoder-utils.js" />
         <option value="$PROJECT_DIR$/weather_map.html" />
         <option value="$PROJECT_DIR$/css/weather_map.css" />
         <option value="$PROJECT_DIR$/darksky-test.html" />
         <option value="$PROJECT_DIR$/js/es6.js" />
         <option value="$PROJECT_DIR$/map-filter-reduce.html" />
-        <option value="$PROJECT_DIR$/js/promises.js" />
         <option value="$PROJECT_DIR$/js/map-filter-reduce.js" />
+        <option value="$PROJECT_DIR$/promises_js.html" />
+        <option value="$PROJECT_DIR$/js/keys.js" />
+        <option value="$PROJECT_DIR$/js/promises.js" />
       </list>
     </option>
   </component>
@@ -191,9 +186,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="444" />
+    <option name="x" value="388" />
     <option name="y" value="23" />
-    <option name="width" value="683" />
+    <option name="width" value="747" />
     <option name="height" value="738" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -226,12 +221,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557159793919" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557253803343" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.CSS" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="settings.editor.splitter.proportion" value="0.27650273" />
   </component>
   <component name="RecentsManager">
@@ -296,18 +291,18 @@
       <workItem from="1555961940912" duration="101941000" />
       <workItem from="1556816866316" duration="7711000" />
       <workItem from="1556899371786" duration="8562000" />
-      <workItem from="1556916208350" duration="9851000" />
+      <workItem from="1556916208350" duration="27394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="439605000" />
+    <option name="totallyTimeSpent" value="457148000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="444" y="23" width="683" height="738" extended-state="0" />
+    <frame x="388" y="23" width="747" height="738" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3400936" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.33758864" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24966623" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -324,7 +319,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4976452" weight="0.56027395" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4976452" weight="0.5588235" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5023548" side_tool="true" weight="0.5669782" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24874792" />
@@ -375,13 +370,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/conditionals.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="214" column="30" selection-start-line="214" selection-start-column="30" selection-end-line="214" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/conditionals.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -623,13 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/keys.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="52" lean-forward="true" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ajax-blog.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-487">
@@ -686,6 +667,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/map-filter-reduce.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/es6.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -696,24 +684,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/promises.js">
+    <entry file="file://$PROJECT_DIR$/js/keys.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map-filter-reduce.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        <state relative-caret-position="60">
+          <caret line="4" column="67" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/map-filter-reduce.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="115" column="33" selection-start-line="115" selection-start-column="33" selection-end-line="115" selection-end-column="33" />
+        <state relative-caret-position="371">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/promises_js.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/promises.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
